@@ -106,6 +106,5 @@
         }
       }
     }
-  },
-  "defaultProject": "disi-angular-standalone"
+  }
 }
