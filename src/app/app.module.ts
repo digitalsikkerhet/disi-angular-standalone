@@ -4,12 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DemoStandaloneComponent } from "../standalone/components/demo-standalone-component/demo-standalone-component";
+import {
+    ImageUtilityService,
+    TextToImageProperties,
+  } from '../standalone/services/image-utility.service';
+  
 
 @NgModule({
     declarations: [
         AppComponent
     ],
-    providers: [],
+    providers: [ ImageUtilityService ],
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
